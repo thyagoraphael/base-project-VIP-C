@@ -39,6 +39,10 @@ final class HomeInteractorTests: XCTestCase {
 }
 
 final class HomeInteractorSpy: HomePresenting {
+    func displaySayHello(name: String, lastName: String) {
+        
+    }
+    
     
     enum Messages: Equatable {
         case doSomething
